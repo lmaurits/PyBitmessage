@@ -1,3 +1,21 @@
+About this fork
+---------------
+
+I think the BitMessage concept is interesting and worth attention.  However, I
+think that the current codebase will give a lot of experienced Python developers
+a visceral "yuck!" reaction: global variables, functions and methods hundreds
+of lines long, variable names hundreds of characters long, no docstrings, no
+package structure, etc, etc.  This is not just an aesthetic thing.  If the code
+is scary, it will be hard to attract talented crypto folks to do a proper
+security audit to build confidence in the system.  Also, the current written
+documentation for the protocol is a little vague on some details, so for now the
+reference implementation's code *is* the protocol specification.  As such, it
+needs to be easy to read.
+
+This fork is aimed, for now, at restructuring and rewriting the BM code to
+improve readability and clarity.  As a nice side-effect, I'll learn more about
+the protocol, and maybe squish some bugs along the way.
+
 PyBitmessage
 ============
 
